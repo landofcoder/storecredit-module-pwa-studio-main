@@ -1,0 +1,26 @@
+.root {
+    display: grid;
+    padding: 2.5rem 3rem;
+    row-gap: 2rem;
+}
+.title{
+    text-align: center;
+}
+.options{
+    margin: 1.5rem 0;
+}
+.titleCredit{
+    font-weight: 600;
+    margin: 1.5rem 0;
+    
+}
+@media (max-width: 960px) {
+    .root {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .buttonsContainer {
+        justify-content: center;
+    }
+}
